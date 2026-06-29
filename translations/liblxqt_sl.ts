@@ -64,8 +64,28 @@
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="149"/>
-        <source>Do you want to really suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
-        <translation>Ali res želite v stanje pripravljenosti?&lt;p&gt;Računalnik gre v stanje nizke porabe energije. Morebitni odprti programi se v primeru izpada elektrike zaprejo.</translation>
+        <source>Do you really want to suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="159"/>
+        <source>Do you really want to hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="169"/>
+        <source>Do you really want to restart your computer? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="179"/>
+        <source>Do you really want to power off your computer? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="189"/>
+        <source>Do you really want to logout? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="158"/>
@@ -73,19 +93,9 @@
         <translation>Seja v mirovanje</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="159"/>
-        <source>Do you want to really hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
-        <translation>Ali res želite računalnik preklopiti v stanje mirovanja?&lt;p&gt;Računalnik gre v stanje nizke porabe energije. Morebitni odprti programi se v primeru izpada elektrike ne zaprejo.</translation>
-    </message>
-    <message>
         <location filename="../lxqtpowermanager.cpp" line="168"/>
         <source>LXQt Session Reboot</source>
         <translation>Ponovni zagon seje</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpowermanager.cpp" line="169"/>
-        <source>Do you want to really restart your computer? All unsaved work will be lost...</source>
-        <translation>Ali res želite znova zagnati računalnik? Vse neshranjeno delo bo izgubljeno.</translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="178"/>
@@ -93,19 +103,9 @@
         <translation>Izklop seje</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="179"/>
-        <source>Do you want to really switch off your computer? All unsaved work will be lost...</source>
-        <translation>Ali res želite izklopiti računalnik? Vse neshranjeno delo bo izgubljeno.</translation>
-    </message>
-    <message>
         <location filename="../lxqtpowermanager.cpp" line="188"/>
         <source>LXQt Session Logout</source>
         <translation>Odjava seje</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpowermanager.cpp" line="189"/>
-        <source>Do you want to really logout? All unsaved work will be lost...</source>
-        <translation>Ali se res želite odjaviti? Vse neshranjeno delo bo izgubljeno.</translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="197"/>
@@ -158,20 +158,20 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="88"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="138"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="90"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="140"/>
         <source>Power Manager Error</source>
         <translation>Napaka upravljalnika energije</translation>
     </message>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="89"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="139"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="91"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="141"/>
         <source>QDBusInterface is invalid</source>
         <translation>QDBusInterface ni veljaven</translation>
     </message>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="103"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="153"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="105"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="155"/>
         <source>Power Manager Error (D-BUS call)</source>
         <translation>Napaka upravljalnika energije (klic D-Bus)</translation>
     </message>

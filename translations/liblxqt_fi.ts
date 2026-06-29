@@ -64,8 +64,28 @@
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="149"/>
-        <source>Do you want to really suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
-        <translation>Oletko varma, että halua siirtää tietokoneesi valmiustilaan?&lt;p&gt;Siirtää tietokoneen matalan virrankäytön tilaan. Virtakatkon sattuessa järjestelmän tilaa ei ole tallennettu.</translation>
+        <source>Do you really want to suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="159"/>
+        <source>Do you really want to hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="169"/>
+        <source>Do you really want to restart your computer? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="179"/>
+        <source>Do you really want to power off your computer? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtpowermanager.cpp" line="189"/>
+        <source>Do you really want to logout? All unsaved work will be lost...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="158"/>
@@ -73,19 +93,9 @@
         <translation>LXQt-istunnon lepotila</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="159"/>
-        <source>Do you want to really hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
-        <translation>Oletko varma, että haluat siirtää tietokoneesi lepotilaan?&lt;p&gt;Siirtää tietokoneen matalan virrankäytön tilaan. Virtakatkon sattuessa järjestelmän tila on tallennettu.</translation>
-    </message>
-    <message>
         <location filename="../lxqtpowermanager.cpp" line="168"/>
         <source>LXQt Session Reboot</source>
         <translation>LXQt-istunnon uudelleenkäynnistys</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpowermanager.cpp" line="169"/>
-        <source>Do you want to really restart your computer? All unsaved work will be lost...</source>
-        <translation>Haluatko varmasti käynnistää tietokoneen uudelleen? Kaikki tallentamaton tieto menetetään...</translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="178"/>
@@ -93,19 +103,9 @@
         <translation>LXQt-istunnon sammutus</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="179"/>
-        <source>Do you want to really switch off your computer? All unsaved work will be lost...</source>
-        <translation>Haluatko varmasti sammuttaa tietokoneen? Kaikki tallentamaton tieto menetetään...</translation>
-    </message>
-    <message>
         <location filename="../lxqtpowermanager.cpp" line="188"/>
         <source>LXQt Session Logout</source>
         <translation>LXQt-istunnon uloskirjaus</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpowermanager.cpp" line="189"/>
-        <source>Do you want to really logout? All unsaved work will be lost...</source>
-        <translation>Haluatko varmasti kirjautua ulos? Kaikki tallentamaton tieto menetetään...</translation>
     </message>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="197"/>
@@ -158,20 +158,20 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="88"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="138"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="90"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="140"/>
         <source>Power Manager Error</source>
         <translation>Virranhallinnan virhe</translation>
     </message>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="89"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="139"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="91"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="141"/>
         <source>QDBusInterface is invalid</source>
         <translation>QDBusInterface on virheellinen</translation>
     </message>
     <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="103"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="153"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="105"/>
+        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="155"/>
         <source>Power Manager Error (D-BUS call)</source>
         <translation>Virranhallinnan virhe (D-BUS-kutsu)</translation>
     </message>
